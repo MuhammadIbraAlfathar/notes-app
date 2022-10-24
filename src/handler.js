@@ -112,7 +112,7 @@ const editNodeByIdHandler = (request, h) => {
 };
 
 // Menghapus notes dengan parameter id
-const deleteNoteByIdHandler = (request, h) => {
+const deleteByIdHandler = (request, h) => {
   const { id } = request.params;
 
   //Mencari nilai id
@@ -141,5 +141,5 @@ module.exports = {
   getAllNotesHandler,
   getNoteByIdHandler,
   editNodeByIdHandler,
-  deleteNoteByIdHandler,
+  deleteByIdHandler,
 };
