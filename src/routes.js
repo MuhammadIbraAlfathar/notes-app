@@ -3,7 +3,7 @@ const {
   getAllNotesHandler,
   getNoteByIdHandler,
   editNodeByIdHandler,
-  deleteNoteByIdHandler,
+  deleteByIdHandler,
 } = require("./handler");
 
 const routes = [
